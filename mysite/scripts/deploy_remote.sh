@@ -4,9 +4,12 @@ set -euo pipefail
 
 PROJECT_DIR=/home/vagrant/django_git/mysite
 
+TEMP_DIR=/home/vagrant/django_git/__deploy_tmp__
+
 REPO_URL=https://github.com/shrewdrowny/django_test.git
 
-BRANCH=main   # 또는 master
+BRANCH=main
+# 또는 master
 
 echo "[INFO] Deploying into: ${PROJECT_DIR}"
 
